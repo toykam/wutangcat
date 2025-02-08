@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 5px;
+  }
+  
+  .btn:hover {
+    background-color: #e6b800;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('wu-tang-cat-banner.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin: 0;
+  }
+  
+  .hero .tagline {
+    font-size: 1.5rem;
+    margin: 10px 0 20px;
+  }
+  
+  /* About Section */
+  .about {
+    background-color: #1a1a1a;
+    padding: 50px 0;
+  }
+  
+  .about h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .tokenomics {
+    margin-top: 30px;
+  }
+  
+  .tokenomics h3 {
+    font-size: 2rem;
+  }
+  
+  .tokenomics ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tokenomics li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  
+  /* How to Buy Section */
+  .how-to-buy {
+    background-color: #000;
+    padding: 50px 0;
+  }
+  
+  .how-to-buy h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .how-to-buy ol {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 20px 0;
+  }
+  
+  .how-to-buy .btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+  }
